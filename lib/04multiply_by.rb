@@ -9,3 +9,9 @@
 # > 5
 # > 10
 # > 15
+
+def multiply_by(arr, number)
+  arr.map! do |num|
+    num * number
+  end
+end

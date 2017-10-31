@@ -17,3 +17,11 @@ contacts = {
   Lenny: '444-444-4444',
   Daniel: '777-777-7777'
 }
+
+def print_contacts(contacts)
+  contacts.map do |name, number|
+    p "#{name} has a phone number of #{number}"
+  end
+end
+
+print_contacts(contacts)
